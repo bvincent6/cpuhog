@@ -1,8 +1,15 @@
 ### Procedure
 
-1. Clone repository to linux environment with `oc` available
+1. Windows users : 
+   Start up Docker desktop & open up a command line
+   Run : docker run -it mysidlabs/toolkit
+   
+   Linux users : ssh to the Dev Pilot server.
+   Clone repository (Complete already)
 
 2. Change working directory to `cpuhog`
+   Windows cd /dev/cpuhog
+   Linux : cd /tmp/cpuhog
 
 3. Examine `template-cpuhog.yml` and note the resources defined within it
   * Deployment
